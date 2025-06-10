@@ -1,0 +1,51 @@
+GitHub Basics: Key Concepts and Definitions
+================================================
+
+This file serves as a reference for key concepts covered in the GitHub collaboration workshop.
+
+1. Repository (Repo)
+--------------------
+A repository is like a project folder that contains all of your project’s files and the revision history for each file.
+
+2. Clone
+--------
+Cloning a repository means creating a local copy of a GitHub repository on your computer so you can work on it.
+
+Command Example:
+    git clone https://github.com/username/repository-name.git
+
+3. Fork
+-------
+Forking is creating a personal copy of someone else's repository to your own GitHub account so you can freely experiment with changes.
+
+4. Branch
+---------
+A branch is a parallel version of the repository. It allows you to work on different features without affecting the main branch.
+
+Command Example:
+    git checkout -b new-feature
+
+5. Commit
+---------
+A commit is a snapshot of your repository at a specific point in time. It represents a change made to the codebase.
+
+Command Example:
+    git commit -m "Describe your changes here"
+
+6. Push
+-------
+Pushing means sending your committed changes to a remote repository like GitHub.
+
+Command Example:
+    git push origin branch-name
+
+7. Pull Request (PR)
+---------------------
+A pull request lets you tell others about changes you've pushed to a branch in your forked repository.
+
+8. Merge
+--------
+Merging takes the changes from one branch (e.g., a feature branch) and applies them into another (e.g., main).
+
+------------------------------------------------
+Use this document to review the terminology and workflow used throughout the GitHub demonstration.
