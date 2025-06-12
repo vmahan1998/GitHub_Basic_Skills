@@ -1,0 +1,84 @@
+Getting Started: Working with Git in VSCode or Terminal
+===================================================
+
+This guide walks you through basic Git workflows using your terminal or VSCode interface.
+
+PART 1 – Cloning a Repository through Terminal or VSCode GUI
+------------------------------
+
+OPTION A: Terminal
+----------------------------------
+1. Open your terminal or VSCode.
+
+2. Run the following command to clone the repository:
+    [git clone https://github.com/vmahan1998/GitHub_Basic_Skills.git]
+    
+3. Change into the cloned directory:
+    cd GitHub_Basic_Skills
+    
+4. Open the folder in VSCode:
+    "code"
+
+OPTION B: VSCode GitHub Extension
+----------------------------------
+1. Open VSCode.
+
+2. Go to the **Source Control** icon (left sidebar) or use `Ctrl+Shift+G`.
+
+3. If not already signed in, sign in to GitHub via the **Accounts** menu.
+
+4. Press `F1` (or Ctrl+Shift+P) to open the Command Palette.
+
+5. Type `Git: Clone` and press Enter.
+
+6. Paste the repository URL:
+    "https://github.com/vmahan1998/GitHub_Basic_Skills.git"
+    
+7. Choose a location to save the repo and click “Open” when prompted.
+
+PART 2 – Creating a Branch
+---------------------------
+1. Open a terminal in VSCode or use the Source Control UI dropdown.
+
+2. Run this command:
+    [git checkout -b your-branch-name]
+
+PART 3 – Making a Change
+-------------------------
+1. Open 'EDIT_ME.txt' in VSCode.
+
+2. Add a line at the bottom with your name and a fun message like:
+    "Vanessa: Learning Git is fun!""
+
+PART 4 – Saving Your Work
+--------------------------
+
+OPTION A: Using Terminal
+-------------------------
+1. Stage your file:
+    [git add EDIT_ME.txt]
+    
+2. Commit your changes with a message:
+    [git commit -m "Add message to guestbook"]
+    
+3. Push your branch to GitHub:
+    [git push origin your-branch-name]
+
+OPTION B: Using VSCode GitHub Extension
+----------------------------------------
+1. Open the **Source Control** view in VSCode (left sidebar).
+
+2. You will see 'EDIT_ME.txt' listed under "CHANGES".
+
+3. Hover over the file and click the "+" icon to stage it.
+
+4. In the message box at the top, type:
+    "Add message to guestbook"
+    
+5. Click the checkmark to commit.
+
+6. If a prompt appears to publish your branch, click "Publish Branch".
+
+NOTE:
+-----
+This is a personal project workflow for practicing Git basics to build confidence in making and tracking changes.

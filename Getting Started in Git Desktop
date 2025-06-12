@@ -1,0 +1,54 @@
+Getting Started: Using GitHub Desktop for Version Control
+=========================================================
+
+This guide walks you through the Git workflow using the GitHub Desktop application.
+
+PART 1 – Clone a Repository
+----------------------------
+1. Open GitHub Desktop.
+
+2. Go to: "File" → "Clone Repository."
+
+3. Select the "URL" tab.
+
+4. Paste the repository URL:
+   https://github.com/vmahan1998/GitHub_Basic_Skills.git
+   
+5. Choose a local path and click “Clone”.
+
+PART 2 – Create a Branch
+-------------------------
+1. In GitHub Desktop, click on the “Current Branch” dropdown.
+
+2. Click “New Branch”.
+
+3. Enter a name for your branch (e.g., `add-message`).
+
+4. Click “Create Branch”.
+
+PART 3 – Make a Change
+-----------------------
+1. In File Explorer (Windows) or Finder (Mac), navigate to the local folder you cloned.
+
+2. Open the file `EDIT_ME.txt` in a text editor (e.g., Notepad, VSCode).
+
+3. Add a line with your name and message at the end like:
+   "Vanessa: This is my first GitHub Desktop edit!"
+   
+4. Save the file.
+
+PART 4 – Commit and Push Your Change
+-------------------------------------
+1. Return to GitHub Desktop.
+
+2. The file change will be listed in the “Changes” tab.
+
+3. In the “Summary” field, enter a commit message:
+   "Add message to guestbook"
+4. Click “Commit to add-message”.
+
+5. Click “Push origin” (top bar) to upload your branch to GitHub.
+
+NOTE:
+-----
+This is a personal project workflow for practicing Git basics to build confidence in making and tracking changes.

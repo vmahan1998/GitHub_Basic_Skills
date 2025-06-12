@@ -1,0 +1,46 @@
+Getting Started: Working with Git in RStudio (GUI)
+==================================================
+
+This guide walks you through using Git in RStudio without using the command line.
+
+PART 1 – Clone a Repository
+----------------------------
+1. Open RStudio.
+
+2. Go to: File → New Project → Version Control → Git.
+
+3. Paste the URL for the repository you want to clone:
+   https://github.com/vmahan1998/GitHub_Basic_Skills.git
+   
+4. Choose a directory and name the project folder.
+
+5. Click "Create Project" to open the repo in RStudio.
+
+PART 2 – Create a Branch
+-------------------------
+1. Go to the Terminal tab at the bottom pane (or use Git bash).
+
+2. Run this command:
+   [git checkout -b your-branch-name]
+
+PART 3 – Make a Change
+-----------------------
+1. In the Files pane, open 'EDIT_ME.txt'.
+
+2. Add your name and a fun message at the end of the file like:
+   "Vanessa: Learning Git is fun with RStudio!"
+
+PART 4 – Commit and Push Your Change
+-------------------------------------
+1. In the Git tab (top right pane), check the box next to 'EDIT_ME.txt'.
+
+2. Click “Commit”.
+
+3. Enter a message like:
+   "Add message to guestbook"
+   
+4. Click “Commit” again, then “Push”.
+
+NOTE:
+-----
+This is a personal project workflow for practicing Git basics to build confidence in making and tracking changes.
